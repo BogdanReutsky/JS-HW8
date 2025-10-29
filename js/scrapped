@@ -1,0 +1,10 @@
+// const CardToInsert = "Карточка-6"
+// const findIndex2 = cards.indexOf("Карточка-5")
+// const findIndexAdd = findIndex2 + 1
+// cards.splice(findIndexAdd, 0, CardToInsert);
+// console.log(cards);
+
+// const CardToUpdate = "Карточка-4";
+// const findIndex3 = cards.indexOf("Карточка-4")
+// cards.splice(findIndex3, 1, CardToUpdate)
+// console.log(cards);
