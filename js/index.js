@@ -18,6 +18,7 @@ const cards = [
     "Карточка-5",
 ]
 console.log(cards);
+console.log("До змінення");
 
 const cardToRemove = "Карточка-3";
 const findIndex = cards.indexOf(cardToRemove)
@@ -25,9 +26,13 @@ cards.splice(findIndex, 1)
 console.log(cards);
 
 const CardToInsert = "Карточка-6"
-cards.splice(5, 0, CardToInsert);
+const findIndex2 = cards.indexOf("Карточка-5")
+const findIndexAdd = findIndex2 + 1
+cards.splice(findIndexAdd, 0, CardToInsert);
 console.log(cards);
 
 const CardToUpdate = "Карточка-4(new)";
-cards.splice(2, 1, CardToUpdate)
+const findIndex3 = cards.indexOf("Карточка-4")
+cards.splice(findIndex3, 1, CardToUpdate)
 console.log(cards);
+console.log("після змінення за допомогою splice і IndexOf");
