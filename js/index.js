@@ -17,6 +17,7 @@ const cards = [
     "Карточка-4",
     "Карточка-5",
 ]
+console.log(cards);
 
 const cardToRemove = "Карточка-3";
 const findIndex = cards.indexOf(cardToRemove)
